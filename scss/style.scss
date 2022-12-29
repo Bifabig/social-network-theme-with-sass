@@ -165,3 +165,26 @@ img {
     }
   }
 }
+
+// posts
+
+.post-form-header {
+  padding: 0.5rem;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 2rem;
+  align-items: center;
+
+  > div:first-child {
+    text-align: center;
+  }
+
+  img {
+    width: 160px;
+  }
+}
+
+@import "mobile";
